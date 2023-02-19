@@ -32,7 +32,7 @@ $(() => {
   });
 
   function findMarketSelect(type) {
-    $('.coin_list').html("");
+    $('.coin_list').empty();
     
     $.ajax(settings).done(function (response) {
       let count = 0;
