@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+.contents {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0;
+    color: #333;
+}
+
+.market_select ul {
+    text-align: center;
+}
+
+.market_select li {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+.coin_count {
+    padding: 20px 0 0 0;
+    text-align: right;
+    font-size: 14px;
+}
+
+.market_info {
+    width: 100%;
+}
+
+.market_info table {
+    width: 100%;
+}
+
+.market_info table thead {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.market_info table thead th {
+    text-align: right;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.market_info table tbody td {
+    border-bottom: 1px solid #eee;
+    text-align: right;
+    padding: 10px 0;
+}
+
+.clearfix::before, .clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
